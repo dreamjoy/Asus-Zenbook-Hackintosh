@@ -61,19 +61,19 @@ cd ..
 
 # download kexts
 mkdir ./zips && cd ./zips
-download_github "https://github.com/acidanthera/Lilu/releases/download/1.6.2/Lilu-1.6.2-RELEASE.zip" "RELEASE" "acidanthera-Lilu.zip"
-download_github "https://github.com/acidanthera/AppleALC/releases/download/1.7.6/AppleALC-1.7.6-RELEASE.zip" "RELEASE" "acidanthera-AppleALC.zip"
-download_github "https://github.com/acidanthera/AirportBrcmFixup/releases/download/2.1.6/AirportBrcmFixup-2.1.6-RELEASE.zip" "RELEASE" "acidanthera-AirportBrcmFixup.zip"
-download_github "https://github.com/acidanthera/BrcmPatchRAM/releases/download/2.6.4/BrcmPatchRAM-2.6.4-RELEASE.zip" "RELEASE" "acidanthera-BrcmPatchRAM.zip"
-download_github "https://github.com/acidanthera/CPUFriend/releases/download/1.2.6/CPUFriend-1.2.6-RELEASE.zip" "RELEASE" "acidanthera-CPUFriend.zip"
-download_github "https://github.com/acidanthera/CpuTscSync/releases/download/1.0.9/CpuTscSync-1.0.9-RELEASE.zip" "RELEASE" "acidanthera-CpuTscSync.zip"
-download_github "https://github.com/acidanthera/HibernationFixup/releases/download/1.4.6/HibernationFixup-1.4.6-RELEASE.zip" "RELEASE" "acidanthera-HibernationFixup.zip"
-download_github "https://github.com/acidanthera/VirtualSMC/releases/download/1.3.0/VirtualSMC-1.3.0-RELEASE.zip" "RELEASE" "acidanthera-VirtualSMC.zip"
-download_github "https://github.com/acidanthera/VoodooPS2/releases/download/v2.3.1/VoodooPS2Controller-2.3.1-RELEASE.zip" "RELEASE" "acidanthera-VoodooPS2.zip"
-download_github "https://github.com/acidanthera/WhateverGreen/releases/download/1.6.1/WhateverGreen-1.6.1-RELEASE.zip" "RELEASE" "acidanthera-WhateverGreen.zip"
-download_github "https://github.com/hieplpvip/AsusSMC/releases/download/1.4.1/AsusSMC-1.4.1-RELEASE.zip" "RELEASE" "hieplpvip-AsusSMC.zip"
-#download_github "https://github.com/hieplpvip/AppleBacklightSmoother/releases/download/1.0.2/AppleBacklightSmoother-1.0.2-RELEASE.zip" "RELEASE" "hieplpvip-AppleBacklightSmoother.zip"
-download_github "https://github.com/VoodooI2C/VoodooI2C/releases/download/2.7/VoodooI2C-2.7.zip" "VoodooI2C-" "VoodooI2C-VoodooI2C.zip"
+download_github1 "https://github.com/acidanthera/Lilu/releases/download/1.6.2/Lilu-1.6.2-RELEASE.zip" "RELEASE" "acidanthera-Lilu.zip"
+download_github1 "https://github.com/acidanthera/AppleALC/releases/download/1.7.6/AppleALC-1.7.6-RELEASE.zip" "RELEASE" "acidanthera-AppleALC.zip"
+download_github1 "https://github.com/acidanthera/AirportBrcmFixup/releases/download/2.1.6/AirportBrcmFixup-2.1.6-RELEASE.zip" "RELEASE" "acidanthera-AirportBrcmFixup.zip"
+download_github1 "https://github.com/acidanthera/BrcmPatchRAM/releases/download/2.6.4/BrcmPatchRAM-2.6.4-RELEASE.zip" "RELEASE" "acidanthera-BrcmPatchRAM.zip"
+download_github1 "https://github.com/acidanthera/CPUFriend/releases/download/1.2.6/CPUFriend-1.2.6-RELEASE.zip" "RELEASE" "acidanthera-CPUFriend.zip"
+download_github1 "https://github.com/acidanthera/CpuTscSync/releases/download/1.0.9/CpuTscSync-1.0.9-RELEASE.zip" "RELEASE" "acidanthera-CpuTscSync.zip"
+download_github1 "https://github.com/acidanthera/HibernationFixup/releases/download/1.4.6/HibernationFixup-1.4.6-RELEASE.zip" "RELEASE" "acidanthera-HibernationFixup.zip"
+download_github1 "https://github.com/acidanthera/VirtualSMC/releases/download/1.3.0/VirtualSMC-1.3.0-RELEASE.zip" "RELEASE" "acidanthera-VirtualSMC.zip"
+download_github1 "https://github.com/acidanthera/VoodooPS2/releases/download/v2.3.1/VoodooPS2Controller-2.3.1-RELEASE.zip" "RELEASE" "acidanthera-VoodooPS2.zip"
+download_github1 "https://github.com/acidanthera/WhateverGreen/releases/download/1.6.1/WhateverGreen-1.6.1-RELEASE.zip" "RELEASE" "acidanthera-WhateverGreen.zip"
+download_github1 "https://github.com/hieplpvip/AsusSMC/releases/download/1.4.1/AsusSMC-1.4.1-RELEASE.zip" "RELEASE" "hieplpvip-AsusSMC.zip"
+#download_github1 "https://github.com/hieplpvip/AppleBacklightSmoother/releases/download/1.0.2/AppleBacklightSmoother-1.0.2-RELEASE.zip" "RELEASE" "hieplpvip-AppleBacklightSmoother.zip"
+download_github1 "https://github.com/VoodooI2C/VoodooI2C/releases/download/2.7/VoodooI2C-2.7.zip" "VoodooI2C-" "VoodooI2C-VoodooI2C.zip"
 cd ..
 
 # download drivers
